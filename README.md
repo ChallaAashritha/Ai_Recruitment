@@ -11,3 +11,10 @@ new terminal
 --cd frontend
 --npm install
 --npm start
+
+-------------------------------
+ DATABASE
+cd backend
+node seedAdmin.js
+
+--------------
