@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import RecruiterLogin from "./pages/RecruiterLogin";
+import CreateRecruiter from "./pages/CreateRecruiter";
 import RecruiterDashboard from "./pages/RecruiterDashboard";
 import AdminLogin from "./pages/AdminLogin";
 import AdminDashboard from "./pages/AdminDashboard";
@@ -14,6 +15,8 @@ function App() {
 
         <Route path="/admin/login" element={<AdminLogin />} />
         <Route path="/admin/dashboard" element={<AdminDashboard />} />
+        <Route path="/admin/create-recruiter" element={<CreateRecruiter />} />
+
       </Routes>
     </BrowserRouter>
   );

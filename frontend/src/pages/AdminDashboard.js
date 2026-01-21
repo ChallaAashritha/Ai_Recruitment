@@ -32,11 +32,18 @@ function AdminDashboard() {
   };
 
   return (
-    <div>
-      <h2>Admin Dashboard</h2>
-      <button onClick={logout}>Logout</button>
-    </div>
-  );
+  <div>
+    <h2>Admin Dashboard</h2>
+
+    <button onClick={() => navigate("/admin/create-recruiter")}>
+      Create Recruiter
+    </button>
+
+    <br /><br />
+
+    <button onClick={logout}>Logout</button>
+  </div>
+);
 }
 
 export default AdminDashboard;
